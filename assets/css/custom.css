@@ -1,0 +1,277 @@
+﻿
+/*=============================================================
+    Authour : Danny Bieleveld
+    License: mine
+
+
+
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:72px;
+
+}
+.basic-set {
+    padding-top:50px;
+    padding-bottom:80px;
+    font-size:18px;
+}
+.head-line {
+    font-size:30px;
+    color:#084B82;
+    padding-bottom:60px;
+    text-transform: capitalize;
+    font-weight:800;
+}
+    .head-line span {
+        color:#000;
+    }
+ .grayscale-btn {
+    background-color: #1432CC;
+    border-color: #233FCB;
+    border-radius: 10px;
+}
+  .grayscale-btn:hover {
+        background-color: #233FCB;
+        border-color: #FF0000;
+        border-radius: 10px;
+    }
+/* =============================================================
+   NAVBAR STYLES
+ =========================================================== */
+
+.navbar {
+border-radius: 5px;
+margin-bottom: 0px;
+border: 0px solid transparent;
+}
+
+.navbar-inverse {
+    background-color: #3385ff;
+border-top: 1px solid #000;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color:#f00;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color:#fff;
+        font-size:16px;
+        padding:30px 20px;
+    }
+.navbar-toggle {
+    margin-bottom: 30px;
+}
+#nav-wrapper {
+left: 0;
+width: 100%;
+z-index: 999;
+bottom:0px;
+position: fixed;
+background-color: #ffffff;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+/* =============================================================
+   HOME/VEDIO SECTION STYLES
+ ============================================================ */
+#home-sec {
+    height:400px;
+    color:#2c59e0;
+    text-align:center;
+    border-bottom:4px solid #000;
+    }
+    #home-sec .overlay {
+        background-color:rgba(0, 0, 0, 0.7);
+        min-height:400px;
+    }
+    #home-sec h1 {
+        font-weight: 500;font: 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+        color:#2c59e0;
+        text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
+        margin-top: 80px;
+    }
+    #home-sec h1 i {
+            color:#f00;
+    }
+    #home-sec h4 {
+       font-weight: 400;font: 35px/1.3 'Oleo Script', Helvetica, sans-serif;
+       color: #c0cfe8;
+       text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
+    }
+/* =============================================================
+   SERVICES SECTION STYLES
+ ============================================================ */
+
+.txt-block {
+    padding-bottom:15px;
+  }
+
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+  background-color: #3F7FBF;
+}
+
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.bar h4 {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+
+
+/* =============================================================
+   JUST TEXT SECTION STYLES
+ ============================================================ */
+#Just-text {
+      background-color: #8EA9B9;
+}
+.mid-txt {
+    padding-top:40px;
+    padding-bottom:40px;
+    font-size:40px;
+    font-weight:900;
+    color: #3F7FBF;
+}
+
+/*==========================================
+   GALLERY/ PORTFOLIO STYLES
+    =====================================================*/
+
+#port-folio {
+    padding-top: 10px;
+    min-height:550px;
+    border-radius: 10px;
+}
+.portfolio-item {
+    border:2px solid #4B2C62;
+    margin:3px;
+    border-radius: 15px;
+}
+    .portfolio-item p {
+        padding:12px;
+        color:#3F7FBF;
+        line-height:10px;
+    }
+
+.portfolio-item .overlay {
+
+  background-color: #1D72C7;
+  text-align: center;
+  padding-bottom:30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+}
+
+/*==========================================
+   GALLERY/ PORTFOLIO FILTER STYLES
+    =====================================================*/
+
+
+    .white_content {
+      display: none;
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      width: 75%;
+      height: 75%;
+      padding: 16px;
+      border: 20px solid #2A87AD;
+      background-color: white;
+      z-index: 1002;
+      overflow: auto;
+      border-radius: 10px;
+      border-style: ridge;
+      font-size: 20px;
+      text-shadow: 3px;
+
+    }
+
+ul#filters {
+	padding: 0px;
+}
+#filters {
+	margin: 3% 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+	#filters li {
+		display: -webkit-inline-box;
+	}
+	#filters li span {
+		display: block;
+		padding: 10px 9px;
+		text-decoration: none;
+		color: #d51111;
+		cursor: pointer;
+		font-size: 20px;
+	}
+ 	#port-folio .portfolio-item {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		width: 100%;
+		float:left;
+		overflow: hidden;
+    display: none;
+	}
+}
+/* =============================================================
+   CONTACT SECTION STYLES
+ ============================================================ */
+#contact-sec {
+    background-image: url("../img/contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    color:#fff;
+}
+    #contact-sec .overlay {
+        background-color:rgba(0, 0, 0, 0.3);
+        min-height: 500px;
+
+    }
+    #contact-sec .social {
+        padding-top:30px;
+    }
+#contact-sec .social a {
+    font-size:25px;
+    padding:10px 30px;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 15px;
+    display:block;
+    max-width:200px;
+    margin-bottom:20px;
+    radius: 10px;
+}
+
+
+    #contact-sec h2 {
+        font-weight:900;
+        color:#1B15DB;
+        text-align: center;
+    }
